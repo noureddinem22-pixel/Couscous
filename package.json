@@ -1,0 +1,14 @@
+{
+  "name": "dz-ai-pro-monitoring",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Moniteurs Checkly de DZ AI PRO (référence)",
+  "scripts": {
+    "checkly:parse": "checkly debug parse-project"
+  },
+  "devDependencies": {
+    "checkly": "9.5.0",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}
